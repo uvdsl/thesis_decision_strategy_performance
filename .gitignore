@@ -1,0 +1,143 @@
+.classpath
+.project
+archive/
+data/*
+
+# Created by https://www.toptal.com/developers/gitignore/api/eclipse,vscode,maven
+# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,vscode,maven
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+
+### Eclipse Patch ###
+# Spring Boot Tooling
+.sts4-cache/
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/eclipse,vscode,maven
+
+
+.DS_Store
+.huskyrc.json
+out
+log.log
+**/node_modules
+*.pyc
+*.vsix
+/.vscode/
+**/.vscode/.ropeproject/**
+**/testFiles/**/.cache/**
+*.noseids
+.nyc_output
+.vscode-test
+__pycache__
+npm-debug.log
+**/.mypy_cache/**
+!yarn.lock
+coverage/
+cucumber-report.json
+**/.vscode-test/**
+**/.vscode test/**
+**/.vscode-smoke/**
+**/.venv*/
+port.txt
+precommit.hook
+pythonFiles/lib/**
+debug_coverage*/**
+languageServer/**
+languageServer.*/**
+bin/**
+obj/**
+.pytest_cache
+tmp/**
+.python-version
+.vs/
+test-results*.xml
+xunit-test-results.xml
+build/ci/performance/performance-results.json
+!build/
+debug*.log
+debugpy*.log
+pydevd*.log
+nodeLanguageServer/**
+nodeLanguageServer.*/**

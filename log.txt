@@ -1,0 +1,3598 @@
+Generating graph Tue_Feb__9_18_39_00_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 16384
+Reach by Matrix:	 3.2112903594970703
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 3.0371782779693604
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 16383
+------------------------------
+Optimal (all aggreed):	 8394
+Where not all aggreed:	 7989
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 5781
+Iter Score:	 304
+Init Score:	 304
+Init Degree	 256
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 5781, 304, 1904)
+	(both,Reach,InitScore,none):	 (0, 5781, 304, 1904)
+	(both,Reach,InitDeg,none):	 (64, 5717, 192, 2016)
+IterScore
+	(both,IterScore,InitScore,none): (304, 0, 0, 7685)
+	(both,IterScore,InitDeg,none):	 (192, 112, 64, 7621)
+InitScore
+	(both,InitScore,InitDeg,none):	 (192, 112, 64, 7621)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 16383
+------------------------------
+Optimal (all aggreed):	 9407
+Where not all aggreed:	 6976
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 4768
+Iter Score:	 304
+Init Score:	 304
+Init Degree	 256
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 4768, 304, 1904)
+	(both,Reach,InitScore,none):	 (0, 4768, 304, 1904)
+	(both,Reach,InitDeg,none):	 (64, 4704, 192, 2016)
+IterScore
+	(both,IterScore,InitScore,none): (304, 0, 0, 6672)
+	(both,IterScore,InitDeg,none):	 (192, 112, 64, 6608)
+InitScore
+	(both,InitScore,InitDeg,none):	 (192, 112, 64, 6608)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 16383
+------------------------------
+Optimal (all aggreed):	 8698
+Where not all aggreed:	 7685
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 7685
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 2128
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 7685, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 7685, 0, 0)
+	(both,Reach,InitDeg,none):	 (2128, 5557, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 7685)
+	(both,IterScore,InitDeg,none):	 (0, 0, 2128, 5557)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 2128, 5557)
+
+Analysis:	 18.822282075881958
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.931921
+reach_recall       1.000000
+iterH_precision    0.592749
+iterH_recall       0.544612
+initH_precision    0.592749
+initH_recall       0.544612
+deg_precision      0.656229
+deg_recall         0.674503
+dtype: float64
+
+
+
+Generating graph Tue_Feb__9_18_41_15_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.19148850440979004
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.2143406867980957
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 838
+Where not all aggreed:	 185
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 129
+Iter Score:	 56
+Init Score:	 56
+Init Degree	 56
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 129, 56, 0)
+	(both,Reach,InitScore,none):	 (0, 129, 56, 0)
+	(both,Reach,InitDeg,none):	 (0, 129, 56, 0)
+IterScore
+	(both,IterScore,InitScore,none): (56, 0, 0, 129)
+	(both,IterScore,InitDeg,none):	 (56, 0, 0, 129)
+InitScore
+	(both,InitScore,InitDeg,none):	 (56, 0, 0, 129)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 895
+Where not all aggreed:	 128
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 72
+Iter Score:	 56
+Init Score:	 56
+Init Degree	 56
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 72, 56, 0)
+	(both,Reach,InitScore,none):	 (0, 72, 56, 0)
+	(both,Reach,InitDeg,none):	 (0, 72, 56, 0)
+IterScore
+	(both,IterScore,InitScore,none): (56, 0, 0, 72)
+	(both,IterScore,InitDeg,none):	 (56, 0, 0, 72)
+InitScore
+	(both,InitScore,InitDeg,none):	 (56, 0, 0, 72)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 894
+Where not all aggreed:	 129
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 129
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 16
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 129, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 129, 0, 0)
+	(both,Reach,InitDeg,none):	 (16, 113, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 129)
+	(both,IterScore,InitDeg,none):	 (0, 0, 16, 113)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 16, 113)
+
+Analysis:	 3.08339524269104
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.972630
+reach_recall       1.000000
+iterH_precision    0.929619
+iterH_recall       0.892750
+initH_precision    0.929619
+initH_recall       0.892750
+deg_precision      0.937439
+deg_recall         0.908390
+dtype: float64
+
+
+
+Generating graph Tue_Feb__9_18_44_20_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.15620899200439453
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.197705030441284
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 486
+Where not all aggreed:	 537
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 313
+Iter Score:	 112
+Init Score:	 112
+Init Degree	 112
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 313, 112, 112)
+	(both,Reach,InitScore,none):	 (0, 313, 112, 112)
+	(both,Reach,InitDeg,none):	 (0, 313, 112, 112)
+IterScore
+	(both,IterScore,InitScore,none): (112, 0, 0, 425)
+	(both,IterScore,InitDeg,none):	 (112, 0, 0, 425)
+InitScore
+	(both,InitScore,InitDeg,none):	 (112, 0, 0, 425)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 543
+Where not all aggreed:	 480
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 256
+Iter Score:	 112
+Init Score:	 112
+Init Degree	 112
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 256, 112, 112)
+	(both,Reach,InitScore,none):	 (0, 256, 112, 112)
+	(both,Reach,InitDeg,none):	 (0, 256, 112, 112)
+IterScore
+	(both,IterScore,InitScore,none): (112, 0, 0, 368)
+	(both,IterScore,InitDeg,none):	 (112, 0, 0, 368)
+InitScore
+	(both,InitScore,InitDeg,none):	 (112, 0, 0, 368)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 598
+Where not all aggreed:	 425
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 425
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 0
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 425, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 425, 0, 0)
+	(both,Reach,InitDeg,none):	 (0, 425, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 425)
+	(both,IterScore,InitDeg,none):	 (0, 0, 0, 425)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 0, 425)
+
+Analysis:	 3.0777289867401123
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.882698
+reach_recall       1.000000
+iterH_precision    0.640274
+iterH_recall       0.603405
+initH_precision    0.640274
+initH_recall       0.603405
+deg_precision      0.640274
+deg_recall         0.603405
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_47_37_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 4096
+Reach by Matrix:	 0.6404743194580078
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0365190505981445
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 4095
+------------------------------
+Optimal (all aggreed):	 1728
+Where not all aggreed:	 2367
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1727
+Iter Score:	 168
+Init Score:	 168
+Init Degree	 441
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 1727, 168, 472)
+	(both,Reach,InitScore,none):	 (0, 1727, 168, 472)
+	(both,Reach,InitDeg,none):	 (217, 1510, 224, 416)
+IterScore
+	(both,IterScore,InitScore,none): (168, 0, 0, 2199)
+	(both,IterScore,InitDeg,none):	 (168, 0, 273, 1926)
+InitScore
+	(both,InitScore,InitDeg,none):	 (168, 0, 273, 1926)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 4095
+------------------------------
+Optimal (all aggreed):	 1975
+Where not all aggreed:	 2120
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1480
+Iter Score:	 168
+Init Score:	 168
+Init Degree	 440
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 1480, 168, 472)
+	(both,Reach,InitScore,none):	 (0, 1480, 168, 472)
+	(both,Reach,InitDeg,none):	 (216, 1264, 224, 416)
+IterScore
+	(both,IterScore,InitScore,none): (168, 0, 0, 1952)
+	(both,IterScore,InitDeg,none):	 (168, 0, 272, 1680)
+InitScore
+	(both,InitScore,InitDeg,none):	 (168, 0, 272, 1680)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 4095
+------------------------------
+Optimal (all aggreed):	 1896
+Where not all aggreed:	 2199
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 2199
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 625
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 2199, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 2199, 0, 0)
+	(both,Reach,InitDeg,none):	 (625, 1574, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 2199)
+	(both,IterScore,InitDeg,none):	 (0, 0, 625, 1574)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 625, 1574)
+
+Analysis:	 5.407883405685425
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.917623
+reach_recall       1.000000
+iterH_precision    0.523321
+iterH_recall       0.479439
+initH_precision    0.523321
+initH_recall       0.479439
+deg_precision      0.627513
+deg_recall         0.635173
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_47_45_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 32768
+Reach by Matrix:	 6.126705646514893
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.978444814682007
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 32767
+------------------------------
+Optimal (all aggreed):	 26378
+Where not all aggreed:	 6389
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 2741
+Iter Score:	 1920
+Init Score:	 1920
+Init Degree	 1858
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (64, 2677, 1856, 1792)
+	(both,Reach,InitScore,none):	 (64, 2677, 1856, 1792)
+	(both,Reach,InitDeg,none):	 (2, 2739, 1856, 1792)
+IterScore
+	(both,IterScore,InitScore,none): (1920, 0, 0, 4469)
+	(both,IterScore,InitDeg,none):	 (1856, 64, 2, 4467)
+InitScore
+	(both,InitScore,InitDeg,none):	 (1856, 64, 2, 4467)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 32767
+------------------------------
+Optimal (all aggreed):	 27391
+Where not all aggreed:	 5376
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1728
+Iter Score:	 2688
+Init Score:	 2688
+Init Degree	 2112
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (64, 1664, 2624, 1024)
+	(both,Reach,InitScore,none):	 (64, 1664, 2624, 1024)
+	(both,Reach,InitDeg,none):	 (0, 1728, 2112, 1536)
+IterScore
+	(both,IterScore,InitScore,none): (2688, 0, 0, 2688)
+	(both,IterScore,InitDeg,none):	 (2112, 576, 0, 2688)
+InitScore
+	(both,InitScore,InitDeg,none):	 (2112, 576, 0, 2688)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 32767
+------------------------------
+Optimal (all aggreed):	 28298
+Where not all aggreed:	 4469
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 4469
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 514
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 4469, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 4469, 0, 0)
+	(both,Reach,InitDeg,none):	 (514, 3955, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 4469)
+	(both,IterScore,InitDeg,none):	 (0, 0, 514, 3955)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 514, 3955)
+
+Analysis:	 30.57042956352234
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.944334
+reach_recall       1.000000
+iterH_precision    0.917966
+iterH_recall       0.884697
+initH_precision    0.917966
+initH_recall       0.884697
+deg_precision      0.916990
+deg_recall         0.901108
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_48_23_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 128
+Reach by Matrix:	 0.031243562698364258
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0313165187835693
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 127
+------------------------------
+Optimal (all aggreed):	 83
+Where not all aggreed:	 44
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 36
+Iter Score:	 6
+Init Score:	 6
+Init Degree	 6
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 36, 6, 2)
+	(both,Reach,InitScore,none):	 (0, 36, 6, 2)
+	(both,Reach,InitDeg,none):	 (0, 36, 6, 2)
+IterScore
+	(both,IterScore,InitScore,none): (6, 0, 0, 38)
+	(both,IterScore,InitDeg,none):	 (6, 0, 0, 38)
+InitScore
+	(both,InitScore,InitDeg,none):	 (6, 0, 0, 38)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 127
+------------------------------
+Optimal (all aggreed):	 87
+Where not all aggreed:	 40
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 32
+Iter Score:	 6
+Init Score:	 6
+Init Degree	 6
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 32, 6, 2)
+	(both,Reach,InitScore,none):	 (0, 32, 6, 2)
+	(both,Reach,InitDeg,none):	 (0, 32, 6, 2)
+IterScore
+	(both,IterScore,InitScore,none): (6, 0, 0, 34)
+	(both,IterScore,InitDeg,none):	 (6, 0, 0, 34)
+InitScore
+	(both,InitScore,InitDeg,none):	 (6, 0, 0, 34)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 127
+------------------------------
+Optimal (all aggreed):	 89
+Where not all aggreed:	 38
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 38
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 0
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 38, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 38, 0, 0)
+	(both,Reach,InitDeg,none):	 (0, 38, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 38)
+	(both,IterScore,InitDeg,none):	 (0, 0, 0, 38)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 0, 38)
+
+Analysis:	 2.1406638622283936
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.968504
+reach_recall       1.000000
+iterH_precision    0.732283
+iterH_recall       0.715223
+initH_precision    0.732283
+initH_recall       0.715223
+deg_precision      0.732283
+deg_recall         0.715223
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_48_27_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 32768
+Reach by Matrix:	 6.483954906463623
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 3.204686164855957
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 32767
+------------------------------
+Optimal (all aggreed):	 11670
+Where not all aggreed:	 21097
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 12673
+Iter Score:	 3320
+Init Score:	 3320
+Init Degree	 3321
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 12673, 3320, 5104)
+	(both,Reach,InitScore,none):	 (0, 12673, 3320, 5104)
+	(both,Reach,InitDeg,none):	 (1, 12672, 3320, 5104)
+IterScore
+	(both,IterScore,InitScore,none): (3320, 0, 0, 17777)
+	(both,IterScore,InitDeg,none):	 (3320, 0, 1, 17776)
+InitScore
+	(both,InitScore,InitDeg,none):	 (3320, 0, 1, 17776)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 32767
+------------------------------
+Optimal (all aggreed):	 13705
+Where not all aggreed:	 19062
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 10638
+Iter Score:	 4856
+Init Score:	 4856
+Init Degree	 4856
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 10638, 4856, 3568)
+	(both,Reach,InitScore,none):	 (0, 10638, 4856, 3568)
+	(both,Reach,InitDeg,none):	 (0, 10638, 4856, 3568)
+IterScore
+	(both,IterScore,InitScore,none): (4856, 0, 0, 14206)
+	(both,IterScore,InitDeg,none):	 (4856, 0, 0, 14206)
+InitScore
+	(both,InitScore,InitDeg,none):	 (4856, 0, 0, 14206)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 32767
+------------------------------
+Optimal (all aggreed):	 14766
+Where not all aggreed:	 18001
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 17073
+Iter Score:	 224
+Init Score:	 224
+Init Degree	 225
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 17073, 224, 704)
+	(both,Reach,InitScore,none):	 (0, 17073, 224, 704)
+	(both,Reach,InitDeg,none):	 (1, 17072, 224, 704)
+IterScore
+	(both,IterScore,InitScore,none): (224, 0, 0, 17777)
+	(both,IterScore,InitDeg,none):	 (224, 0, 1, 17776)
+InitScore
+	(both,InitScore,InitDeg,none):	 (224, 0, 1, 17776)
+
+Analysis:	 33.74230694770813
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.859045
+reach_recall       0.971679
+iterH_precision    0.566454
+iterH_recall       0.498707
+initH_precision    0.566454
+initH_recall       0.498707
+deg_precision      0.566454
+deg_recall         0.498732
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_49_09_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 512
+Reach by Matrix:	 0.07810735702514648
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.041616916656494
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 274
+Where not all aggreed:	 237
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 125
+Iter Score:	 116
+Init Score:	 116
+Init Degree	 4
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (16, 109, 100, 12)
+	(both,Reach,InitScore,none):	 (16, 109, 100, 12)
+	(both,Reach,InitDeg,none):	 (0, 125, 4, 108)
+IterScore
+	(both,IterScore,InitScore,none): (116, 0, 0, 121)
+	(both,IterScore,InitDeg,none):	 (4, 112, 0, 121)
+InitScore
+	(both,InitScore,InitDeg,none):	 (4, 112, 0, 121)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 316
+Where not all aggreed:	 195
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 83
+Iter Score:	 116
+Init Score:	 116
+Init Degree	 4
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (16, 67, 100, 12)
+	(both,Reach,InitScore,none):	 (16, 67, 100, 12)
+	(both,Reach,InitDeg,none):	 (0, 83, 4, 108)
+IterScore
+	(both,IterScore,InitScore,none): (116, 0, 0, 79)
+	(both,IterScore,InitDeg,none):	 (4, 112, 0, 79)
+InitScore
+	(both,InitScore,InitDeg,none):	 (4, 112, 0, 79)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 390
+Where not all aggreed:	 121
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 121
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 16
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 121, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 121, 0, 0)
+	(both,Reach,InitDeg,none):	 (16, 105, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 121)
+	(both,IterScore,InitDeg,none):	 (0, 0, 16, 105)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 16, 105)
+
+Analysis:	 2.463402032852173
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.885192
+reach_recall       1.000000
+iterH_precision    0.845401
+iterH_recall       0.793509
+initH_precision    0.845401
+initH_recall       0.793509
+deg_precision      0.751468
+deg_recall         0.824821
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_49_13_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 256
+Reach by Matrix:	 0.03124213218688965
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.061509609222412
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 255
+------------------------------
+Optimal (all aggreed):	 108
+Where not all aggreed:	 147
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 107
+Iter Score:	 40
+Init Score:	 40
+Init Degree	 40
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (8, 99, 32, 8)
+	(both,Reach,InitScore,none):	 (8, 99, 32, 8)
+	(both,Reach,InitDeg,none):	 (16, 91, 24, 16)
+IterScore
+	(both,IterScore,InitScore,none): (40, 0, 0, 107)
+	(both,IterScore,InitDeg,none):	 (24, 16, 16, 91)
+InitScore
+	(both,InitScore,InitDeg,none):	 (24, 16, 16, 91)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 255
+------------------------------
+Optimal (all aggreed):	 119
+Where not all aggreed:	 136
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 96
+Iter Score:	 40
+Init Score:	 40
+Init Degree	 40
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (8, 88, 32, 8)
+	(both,Reach,InitScore,none):	 (8, 88, 32, 8)
+	(both,Reach,InitDeg,none):	 (16, 80, 24, 16)
+IterScore
+	(both,IterScore,InitScore,none): (40, 0, 0, 96)
+	(both,IterScore,InitDeg,none):	 (24, 16, 16, 80)
+InitScore
+	(both,InitScore,InitDeg,none):	 (24, 16, 16, 80)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 255
+------------------------------
+Optimal (all aggreed):	 148
+Where not all aggreed:	 107
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 107
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 64
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 107, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 107, 0, 0)
+	(both,Reach,InitDeg,none):	 (64, 43, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 107)
+	(both,IterScore,InitDeg,none):	 (0, 0, 64, 43)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 64, 43)
+
+Analysis:	 2.2958290576934814
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.921569
+reach_recall       1.000000
+iterH_precision    0.623529
+iterH_recall       0.598366
+initH_precision    0.623529
+initH_recall       0.598366
+deg_precision      0.738562
+deg_recall         0.849346
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_49_16_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.15621256828308105
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.1183974742889404
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 656
+Where not all aggreed:	 367
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 367
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 1
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 367, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 367, 0, 0)
+	(both,Reach,InitDeg,none):	 (1, 366, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 367)
+	(both,IterScore,InitDeg,none):	 (0, 0, 1, 366)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 1, 366)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 839
+Where not all aggreed:	 184
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 184
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 0
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 184, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 184, 0, 0)
+	(both,Reach,InitDeg,none):	 (0, 184, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 184)
+	(both,IterScore,InitDeg,none):	 (0, 0, 0, 184)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 0, 184)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 656
+Where not all aggreed:	 367
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 367
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 9
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 367, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 367, 0, 0)
+	(both,Reach,InitDeg,none):	 (9, 358, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 367)
+	(both,IterScore,InitDeg,none):	 (0, 0, 9, 358)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 9, 358)
+
+Analysis:	 2.978111982345581
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    1.000000
+reach_recall       1.000000
+iterH_precision    0.820137
+iterH_recall       0.693616
+initH_precision    0.820137
+initH_recall       0.693616
+deg_precision      0.824047
+deg_recall         0.701925
+dtype: float64
+
+
+
+
+Generating graph Tue_Feb__9_18_49_20_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.1718735694885254
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.034574508666992
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 181
+Where not all aggreed:	 842
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 547
+Iter Score:	 132
+Init Score:	 132
+Init Degree	 325
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 547, 132, 163)
+	(both,Reach,InitScore,none):	 (0, 547, 132, 163)
+	(both,Reach,InitDeg,none):	 (261, 286, 64, 231)
+IterScore
+	(both,IterScore,InitScore,none): (132, 0, 0, 710)
+	(both,IterScore,InitDeg,none):	 (64, 68, 261, 449)
+InitScore
+	(both,InitScore,InitDeg,none):	 (64, 68, 261, 449)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 207
+Where not all aggreed:	 816
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 521
+Iter Score:	 164
+Init Score:	 164
+Init Degree	 348
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 521, 164, 131)
+	(both,Reach,InitScore,none):	 (0, 521, 164, 131)
+	(both,Reach,InitDeg,none):	 (260, 261, 88, 207)
+IterScore
+	(both,IterScore,InitScore,none): (164, 0, 0, 652)
+	(both,IterScore,InitDeg,none):	 (88, 76, 260, 392)
+InitScore
+	(both,InitScore,InitDeg,none):	 (88, 76, 260, 392)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 253
+Where not all aggreed:	 770
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 756
+Iter Score:	 60
+Init Score:	 60
+Init Degree	 309
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (58, 698, 2, 12)
+	(both,Reach,InitScore,none):	 (58, 698, 2, 12)
+	(both,Reach,InitDeg,none):	 (309, 447, 0, 14)
+IterScore
+	(both,IterScore,InitScore,none): (60, 0, 0, 710)
+	(both,IterScore,InitDeg,none):	 (0, 60, 309, 401)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 60, 309, 401)
+
+Analysis:	 2.9562277793884277
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.850114
+reach_recall       0.986315
+iterH_precision    0.362659
+iterH_recall       0.332682
+initH_precision    0.362659
+initH_recall       0.332682
+deg_precision      0.573803
+deg_recall         0.575920
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_18_49_25_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 32
+Reach by Matrix:	 0.0
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0789339542388916
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 31
+------------------------------
+Optimal (all aggreed):	 27
+Where not all aggreed:	 4
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 4
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 0
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 4, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 4, 0, 0)
+	(both,Reach,InitDeg,none):	 (0, 4, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 4)
+	(both,IterScore,InitDeg,none):	 (0, 0, 0, 4)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 0, 4)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 31
+------------------------------
+Optimal (all aggreed):	 28
+Where not all aggreed:	 3
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 3
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 0
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 3, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 3, 0, 0)
+	(both,Reach,InitDeg,none):	 (0, 3, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 3)
+	(both,IterScore,InitDeg,none):	 (0, 0, 0, 3)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 0, 3)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 31
+------------------------------
+Optimal (all aggreed):	 27
+Where not all aggreed:	 4
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 4
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 0
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 4, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 4, 0, 0)
+	(both,Reach,InitDeg,none):	 (0, 4, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 4)
+	(both,IterScore,InitDeg,none):	 (0, 0, 0, 4)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 0, 4)
+
+Analysis:	 2.094550848007202
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    1.000000
+reach_recall       1.000000
+iterH_precision    0.903226
+iterH_recall       0.887097
+initH_precision    0.903226
+initH_recall       0.887097
+deg_precision      0.903226
+deg_recall         0.887097
+dtype: float64
+
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_18_49_28_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.17183399200439453
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.069047689437866
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 425
+Where not all aggreed:	 598
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 546
+Iter Score:	 26
+Init Score:	 26
+Init Degree	 218
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 546, 26, 26)
+	(both,Reach,InitScore,none):	 (0, 546, 26, 26)
+	(both,Reach,InitDeg,none):	 (192, 354, 26, 26)
+IterScore
+	(both,IterScore,InitScore,none): (26, 0, 0, 572)
+	(both,IterScore,InitDeg,none):	 (26, 0, 192, 380)
+InitScore
+	(both,InitScore,InitDeg,none):	 (26, 0, 192, 380)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 537
+Where not all aggreed:	 486
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 434
+Iter Score:	 34
+Init Score:	 34
+Init Degree	 226
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 434, 34, 18)
+	(both,Reach,InitScore,none):	 (0, 434, 34, 18)
+	(both,Reach,InitDeg,none):	 (192, 242, 34, 18)
+IterScore
+	(both,IterScore,InitScore,none): (34, 0, 0, 452)
+	(both,IterScore,InitDeg,none):	 (34, 0, 192, 260)
+InitScore
+	(both,InitScore,InitDeg,none):	 (34, 0, 192, 260)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 451
+Where not all aggreed:	 572
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 572
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 192
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 572, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 572, 0, 0)
+	(both,Reach,InitDeg,none):	 (192, 380, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 572)
+	(both,IterScore,InitDeg,none):	 (0, 0, 192, 380)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 192, 380)
+
+Analysis:	 2.968012571334839
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.978495
+reach_recall       1.000000
+iterH_precision    0.558162
+iterH_recall       0.478413
+initH_precision    0.558162
+initH_recall       0.478413
+deg_precision      0.745846
+deg_recall         0.666096
+dtype: float64
+
+
+
+
+
+Generating graph Tue_Feb__9_18_49_32_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 512
+Reach by Matrix:	 0.09489583969116211
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0570333003997803
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 351
+Where not all aggreed:	 160
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 99
+Iter Score:	 58
+Init Score:	 58
+Init Degree	 59
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 99, 58, 3)
+	(both,Reach,InitScore,none):	 (0, 99, 58, 3)
+	(both,Reach,InitDeg,none):	 (1, 98, 58, 3)
+IterScore
+	(both,IterScore,InitScore,none): (58, 0, 0, 102)
+	(both,IterScore,InitDeg,none):	 (58, 0, 1, 101)
+InitScore
+	(both,InitScore,InitDeg,none):	 (58, 0, 1, 101)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 370
+Where not all aggreed:	 141
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 80
+Iter Score:	 58
+Init Score:	 58
+Init Degree	 58
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 80, 58, 3)
+	(both,Reach,InitScore,none):	 (0, 80, 58, 3)
+	(both,Reach,InitDeg,none):	 (0, 80, 58, 3)
+IterScore
+	(both,IterScore,InitScore,none): (58, 0, 0, 83)
+	(both,IterScore,InitDeg,none):	 (58, 0, 0, 83)
+InitScore
+	(both,InitScore,InitDeg,none):	 (58, 0, 0, 83)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 408
+Where not all aggreed:	 103
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 102
+Iter Score:	 1
+Init Score:	 1
+Init Degree	 2
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 102, 1, 0)
+	(both,Reach,InitScore,none):	 (0, 102, 1, 0)
+	(both,Reach,InitDeg,none):	 (1, 101, 1, 0)
+IterScore
+	(both,IterScore,InitScore,none): (1, 0, 0, 102)
+	(both,IterScore,InitDeg,none):	 (1, 0, 1, 101)
+InitScore
+	(both,InitScore,InitDeg,none):	 (1, 0, 1, 101)
+
+Analysis:	 2.4943878650665283
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.936399
+reach_recall       0.998043
+iterH_precision    0.837573
+iterH_recall       0.815721
+initH_precision    0.837573
+initH_recall       0.815721
+deg_precision      0.838552
+deg_recall         0.817678
+dtype: float64
+Generating graph Tue_Feb__9_20_01_54_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 2048
+Reach by Matrix:	 0.2811892032623291
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.041051149368286
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 2047
+------------------------------
+Optimal (all aggreed):	 242
+Where not all aggreed:	 1805
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1203
+Iter Score:	 102
+Init Score:	 102
+Init Degree	 294
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (12, 1191, 90, 512)
+	(both,Reach,InitScore,none):	 (12, 1191, 90, 512)
+	(both,Reach,InitDeg,none):	 (192, 1011, 102, 500)
+IterScore
+	(both,IterScore,InitScore,none): (102, 0, 0, 1703)
+	(both,IterScore,InitDeg,none):	 (78, 24, 216, 1487)
+InitScore
+	(both,InitScore,InitDeg,none):	 (78, 24, 216, 1487)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 2047
+------------------------------
+Optimal (all aggreed):	 444
+Where not all aggreed:	 1603
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1001
+Iter Score:	 248
+Init Score:	 248
+Init Degree	 441
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (12, 989, 236, 366)
+	(both,Reach,InitScore,none):	 (12, 989, 236, 366)
+	(both,Reach,InitDeg,none):	 (193, 808, 248, 354)
+IterScore
+	(both,IterScore,InitScore,none): (248, 0, 0, 1355)
+	(both,IterScore,InitDeg,none):	 (224, 24, 217, 1138)
+InitScore
+	(both,InitScore,InitDeg,none):	 (224, 24, 217, 1138)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 2047
+------------------------------
+Optimal (all aggreed):	 336
+Where not all aggreed:	 1711
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1703
+Iter Score:	 8
+Init Score:	 8
+Init Degree	 224
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 1703, 8, 0)
+	(both,Reach,InitScore,none):	 (0, 1703, 8, 0)
+	(both,Reach,InitDeg,none):	 (216, 1487, 8, 0)
+IterScore
+	(both,IterScore,InitScore,none): (8, 0, 0, 1703)
+	(both,IterScore,InitDeg,none):	 (8, 0, 216, 1487)
+InitScore
+	(both,InitScore,InitDeg,none):	 (8, 0, 216, 1487)
+
+Analysis:	 3.7906010150909424
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.845028
+reach_recall       0.996092
+iterH_precision    0.338056
+iterH_recall       0.245367
+initH_precision    0.338056
+initH_recall       0.245367
+deg_precision      0.438202
+deg_recall         0.351132
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_01_59_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 512
+Reach by Matrix:	 0.07579779624938965
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.021742343902588
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 175
+Where not all aggreed:	 336
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 320
+Iter Score:	 16
+Init Score:	 16
+Init Degree	 24
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 320, 16, 0)
+	(both,Reach,InitScore,none):	 (0, 320, 16, 0)
+	(both,Reach,InitDeg,none):	 (8, 312, 16, 0)
+IterScore
+	(both,IterScore,InitScore,none): (16, 0, 0, 320)
+	(both,IterScore,InitDeg,none):	 (16, 0, 8, 312)
+InitScore
+	(both,InitScore,InitDeg,none):	 (16, 0, 8, 312)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 279
+Where not all aggreed:	 232
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 216
+Iter Score:	 16
+Init Score:	 16
+Init Degree	 24
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 216, 16, 0)
+	(both,Reach,InitScore,none):	 (0, 216, 16, 0)
+	(both,Reach,InitDeg,none):	 (8, 208, 16, 0)
+IterScore
+	(both,IterScore,InitScore,none): (16, 0, 0, 216)
+	(both,IterScore,InitDeg,none):	 (16, 0, 8, 208)
+InitScore
+	(both,InitScore,InitDeg,none):	 (16, 0, 8, 208)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 191
+Where not all aggreed:	 320
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 320
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 24
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 320, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 320, 0, 0)
+	(both,Reach,InitDeg,none):	 (24, 296, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 320)
+	(both,IterScore,InitDeg,none):	 (0, 0, 24, 296)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 24, 296)
+
+Analysis:	 2.4279160499572754
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.984344
+reach_recall       1.000000
+iterH_precision    0.577299
+iterH_recall       0.453001
+initH_precision    0.577299
+initH_recall       0.453001
+deg_precision      0.608611
+deg_recall         0.499967
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_03_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 32
+Reach by Matrix:	 0.005980014801025391
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0036849975585938
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 31
+------------------------------
+Optimal (all aggreed):	 12
+Where not all aggreed:	 19
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 17
+Iter Score:	 2
+Init Score:	 2
+Init Degree	 4
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 17, 2, 0)
+	(both,Reach,InitScore,none):	 (0, 17, 2, 0)
+	(both,Reach,InitDeg,none):	 (2, 15, 2, 0)
+IterScore
+	(both,IterScore,InitScore,none): (2, 0, 0, 17)
+	(both,IterScore,InitDeg,none):	 (2, 0, 2, 15)
+InitScore
+	(both,InitScore,InitDeg,none):	 (2, 0, 2, 15)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 31
+------------------------------
+Optimal (all aggreed):	 12
+Where not all aggreed:	 19
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 17
+Iter Score:	 2
+Init Score:	 2
+Init Degree	 4
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 17, 2, 0)
+	(both,Reach,InitScore,none):	 (0, 17, 2, 0)
+	(both,Reach,InitDeg,none):	 (2, 15, 2, 0)
+IterScore
+	(both,IterScore,InitScore,none): (2, 0, 0, 17)
+	(both,IterScore,InitDeg,none):	 (2, 0, 2, 15)
+InitScore
+	(both,InitScore,InitDeg,none):	 (2, 0, 2, 15)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 31
+------------------------------
+Optimal (all aggreed):	 13
+Where not all aggreed:	 18
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 17
+Iter Score:	 1
+Init Score:	 1
+Init Degree	 3
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 17, 1, 0)
+	(both,Reach,InitScore,none):	 (0, 17, 1, 0)
+	(both,Reach,InitDeg,none):	 (2, 15, 1, 0)
+IterScore
+	(both,IterScore,InitScore,none): (1, 0, 0, 17)
+	(both,IterScore,InitDeg,none):	 (1, 0, 2, 15)
+InitScore
+	(both,InitScore,InitDeg,none):	 (1, 0, 2, 15)
+
+Analysis:	 2.0349268913269043
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.956989
+reach_recall       0.967742
+iterH_precision    0.451613
+iterH_recall       0.451613
+initH_precision    0.451613
+initH_recall       0.451613
+deg_precision      0.516129
+deg_recall         0.516129
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_06_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.17554020881652832
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 1.9725425243377686
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 195
+Where not all aggreed:	 828
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 744
+Iter Score:	 12
+Init Score:	 12
+Init Degree	 556
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 744, 12, 72)
+	(both,Reach,InitScore,none):	 (0, 744, 12, 72)
+	(both,Reach,InitDeg,none):	 (548, 196, 8, 76)
+IterScore
+	(both,IterScore,InitScore,none): (12, 0, 0, 816)
+	(both,IterScore,InitDeg,none):	 (4, 8, 552, 264)
+InitScore
+	(both,InitScore,InitDeg,none):	 (4, 8, 552, 264)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 307
+Where not all aggreed:	 716
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 632
+Iter Score:	 32
+Init Score:	 32
+Init Degree	 576
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 632, 32, 52)
+	(both,Reach,InitScore,none):	 (0, 632, 32, 52)
+	(both,Reach,InitDeg,none):	 (548, 84, 28, 56)
+IterScore
+	(both,IterScore,InitScore,none): (32, 0, 0, 684)
+	(both,IterScore,InitDeg,none):	 (24, 8, 552, 132)
+InitScore
+	(both,InitScore,InitDeg,none):	 (24, 8, 552, 132)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 199
+Where not all aggreed:	 824
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 810
+Iter Score:	 8
+Init Score:	 8
+Init Degree	 552
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (2, 808, 6, 8)
+	(both,Reach,InitScore,none):	 (2, 808, 6, 8)
+	(both,Reach,InitDeg,none):	 (552, 258, 0, 14)
+IterScore
+	(both,IterScore,InitScore,none): (8, 0, 0, 816)
+	(both,IterScore,InitDeg,none):	 (0, 8, 552, 264)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 8, 552, 264)
+
+Analysis:	 2.816094160079956
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.951711
+reach_recall       0.986315
+iterH_precision    0.331378
+iterH_recall       0.257706
+initH_precision    0.331378
+initH_recall       0.257706
+deg_precision      0.863148
+deg_recall         0.789475
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_11_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 2048
+Reach by Matrix:	 0.3385758399963379
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.03780198097229
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 2047
+------------------------------
+Optimal (all aggreed):	 401
+Where not all aggreed:	 1646
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1169
+Iter Score:	 128
+Init Score:	 128
+Init Degree	 445
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (8, 1161, 120, 357)
+	(both,Reach,InitScore,none):	 (8, 1161, 120, 357)
+	(both,Reach,InitDeg,none):	 (277, 892, 168, 309)
+IterScore
+	(both,IterScore,InitScore,none): (128, 0, 0, 1518)
+	(both,IterScore,InitDeg,none):	 (104, 24, 341, 1177)
+InitScore
+	(both,InitScore,InitDeg,none):	 (104, 24, 341, 1177)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 2047
+------------------------------
+Optimal (all aggreed):	 550
+Where not all aggreed:	 1497
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1020
+Iter Score:	 264
+Init Score:	 264
+Init Degree	 600
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (8, 1012, 256, 221)
+	(both,Reach,InitScore,none):	 (8, 1012, 256, 221)
+	(both,Reach,InitDeg,none):	 (293, 727, 307, 170)
+IterScore
+	(both,IterScore,InitScore,none): (264, 0, 0, 1233)
+	(both,IterScore,InitDeg,none):	 (240, 24, 360, 873)
+InitScore
+	(both,InitScore,InitDeg,none):	 (240, 24, 360, 873)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 2047
+------------------------------
+Optimal (all aggreed):	 505
+Where not all aggreed:	 1542
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1514
+Iter Score:	 24
+Init Score:	 24
+Init Degree	 341
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (16, 1498, 8, 20)
+	(both,Reach,InitScore,none):	 (16, 1498, 8, 20)
+	(both,Reach,InitDeg,none):	 (325, 1189, 16, 12)
+IterScore
+	(both,IterScore,InitScore,none): (24, 0, 0, 1518)
+	(both,IterScore,InitDeg,none):	 (0, 24, 341, 1177)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 24, 341, 1177)
+
+Analysis:	 3.7405309677124023
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.888071
+reach_recall       0.986321
+iterH_precision    0.397655
+iterH_recall       0.315274
+initH_precision    0.397655
+initH_recall       0.315274
+deg_precision      0.569614
+deg_recall         0.483545
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_16_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 512
+Reach by Matrix:	 0.07879114151000977
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.001603603363037
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 282
+Where not all aggreed:	 229
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 133
+Iter Score:	 58
+Init Score:	 58
+Init Degree	 34
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 133, 58, 38)
+	(both,Reach,InitScore,none):	 (0, 133, 58, 38)
+	(both,Reach,InitDeg,none):	 (0, 133, 34, 62)
+IterScore
+	(both,IterScore,InitScore,none): (58, 0, 0, 171)
+	(both,IterScore,InitDeg,none):	 (34, 24, 0, 171)
+InitScore
+	(both,InitScore,InitDeg,none):	 (34, 24, 0, 171)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 293
+Where not all aggreed:	 218
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 122
+Iter Score:	 58
+Init Score:	 58
+Init Degree	 34
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 122, 58, 38)
+	(both,Reach,InitScore,none):	 (0, 122, 58, 38)
+	(both,Reach,InitDeg,none):	 (0, 122, 34, 62)
+IterScore
+	(both,IterScore,InitScore,none): (58, 0, 0, 160)
+	(both,IterScore,InitDeg,none):	 (34, 24, 0, 160)
+InitScore
+	(both,InitScore,InitDeg,none):	 (34, 24, 0, 160)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 340
+Where not all aggreed:	 171
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 171
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 2
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 171, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 171, 0, 0)
+	(both,Reach,InitDeg,none):	 (2, 169, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 171)
+	(both,IterScore,InitDeg,none):	 (0, 0, 2, 169)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 2, 169)
+
+Analysis:	 2.392145872116089
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.896282
+reach_recall       1.000000
+iterH_precision    0.686888
+iterH_recall       0.674331
+initH_precision    0.686888
+initH_recall       0.674331
+deg_precision      0.665362
+deg_recall         0.678245
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_20_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 4096
+Reach by Matrix:	 0.6787991523742676
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.077637195587158
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 4095
+------------------------------
+Optimal (all aggreed):	 2553
+Where not all aggreed:	 1542
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 734
+Iter Score:	 376
+Init Score:	 376
+Init Degree	 472
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 734, 376, 432)
+	(both,Reach,InitScore,none):	 (0, 734, 376, 432)
+	(both,Reach,InitDeg,none):	 (48, 686, 424, 384)
+IterScore
+	(both,IterScore,InitScore,none): (376, 0, 0, 1166)
+	(both,IterScore,InitDeg,none):	 (376, 0, 96, 1070)
+InitScore
+	(both,InitScore,InitDeg,none):	 (376, 0, 96, 1070)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 4095
+------------------------------
+Optimal (all aggreed):	 2800
+Where not all aggreed:	 1295
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 487
+Iter Score:	 440
+Init Score:	 440
+Init Degree	 536
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 487, 440, 368)
+	(both,Reach,InitScore,none):	 (0, 487, 440, 368)
+	(both,Reach,InitDeg,none):	 (48, 439, 488, 320)
+IterScore
+	(both,IterScore,InitScore,none): (440, 0, 0, 855)
+	(both,IterScore,InitDeg,none):	 (440, 0, 96, 759)
+InitScore
+	(both,InitScore,InitDeg,none):	 (440, 0, 96, 759)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 4095
+------------------------------
+Optimal (all aggreed):	 2929
+Where not all aggreed:	 1166
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 1166
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 224
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 1166, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 1166, 0, 0)
+	(both,Reach,InitDeg,none):	 (224, 942, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 1166)
+	(both,IterScore,InitDeg,none):	 (0, 0, 224, 942)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 224, 942)
+
+Analysis:	 5.32683539390564
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.902646
+reach_recall       1.000000
+iterH_precision    0.791209
+iterH_recall       0.743973
+initH_precision    0.791209
+initH_recall       0.743973
+deg_precision      0.830281
+deg_recall         0.798674
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_27_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 256
+Reach by Matrix:	 0.04587984085083008
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0097553730010986
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 255
+------------------------------
+Optimal (all aggreed):	 132
+Where not all aggreed:	 123
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 93
+Iter Score:	 30
+Init Score:	 30
+Init Degree	 98
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 93, 30, 0)
+	(both,Reach,InitScore,none):	 (0, 93, 30, 0)
+	(both,Reach,InitDeg,none):	 (82, 11, 16, 14)
+IterScore
+	(both,IterScore,InitScore,none): (30, 0, 0, 93)
+	(both,IterScore,InitDeg,none):	 (16, 14, 82, 11)
+InitScore
+	(both,InitScore,InitDeg,none):	 (16, 14, 82, 11)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 255
+------------------------------
+Optimal (all aggreed):	 143
+Where not all aggreed:	 112
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 82
+Iter Score:	 30
+Init Score:	 30
+Init Degree	 98
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 82, 30, 0)
+	(both,Reach,InitScore,none):	 (0, 82, 30, 0)
+	(both,Reach,InitDeg,none):	 (82, 0, 16, 14)
+IterScore
+	(both,IterScore,InitScore,none): (30, 0, 0, 82)
+	(both,IterScore,InitDeg,none):	 (16, 14, 82, 0)
+InitScore
+	(both,InitScore,InitDeg,none):	 (16, 14, 82, 0)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 255
+------------------------------
+Optimal (all aggreed):	 148
+Where not all aggreed:	 107
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 93
+Iter Score:	 14
+Init Score:	 14
+Init Degree	 82
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 93, 14, 0)
+	(both,Reach,InitScore,none):	 (0, 93, 14, 0)
+	(both,Reach,InitDeg,none):	 (82, 11, 0, 14)
+IterScore
+	(both,IterScore,InitScore,none): (14, 0, 0, 93)
+	(both,IterScore,InitDeg,none):	 (0, 14, 82, 11)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 14, 82, 11)
+
+Analysis:	 2.212841749191284
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.913725
+reach_recall       0.945098
+iterH_precision    0.678431
+iterH_recall       0.653268
+initH_precision    0.678431
+initH_recall       0.653268
+deg_precision      0.945098
+deg_recall         0.919935
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_31_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 8192
+Reach by Matrix:	 1.4044439792633057
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.168762445449829
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 8191
+------------------------------
+Optimal (all aggreed):	 435
+Where not all aggreed:	 7756
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 5868
+Iter Score:	 790
+Init Score:	 790
+Init Degree	 1865
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 5868, 790, 1098)
+	(both,Reach,InitScore,none):	 (0, 5868, 790, 1098)
+	(both,Reach,InitDeg,none):	 (897, 4971, 968, 920)
+IterScore
+	(both,IterScore,InitScore,none): (790, 0, 0, 6966)
+	(both,IterScore,InitDeg,none):	 (744, 46, 1121, 5845)
+InitScore
+	(both,InitScore,InitDeg,none):	 (744, 46, 1121, 5845)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 8191
+------------------------------
+Optimal (all aggreed):	 555
+Where not all aggreed:	 7636
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 5748
+Iter Score:	 790
+Init Score:	 790
+Init Degree	 1864
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 5748, 790, 1098)
+	(both,Reach,InitScore,none):	 (0, 5748, 790, 1098)
+	(both,Reach,InitDeg,none):	 (896, 4852, 968, 920)
+IterScore
+	(both,IterScore,InitScore,none): (790, 0, 0, 6846)
+	(both,IterScore,InitDeg,none):	 (744, 46, 1120, 5726)
+InitScore
+	(both,InitScore,InitDeg,none):	 (744, 46, 1120, 5726)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 8191
+------------------------------
+Optimal (all aggreed):	 1191
+Where not all aggreed:	 7000
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 6940
+Iter Score:	 34
+Init Score:	 34
+Init Degree	 5163
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 6940, 34, 26)
+	(both,Reach,InitScore,none):	 (0, 6940, 34, 26)
+	(both,Reach,InitDeg,none):	 (5129, 1811, 34, 26)
+IterScore
+	(both,IterScore,InitScore,none): (34, 0, 0, 6966)
+	(both,IterScore,InitDeg,none):	 (34, 0, 5129, 1837)
+InitScore
+	(both,InitScore,InitDeg,none):	 (34, 0, 5129, 1837)
+
+Analysis:	 9.713867902755737
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.869267
+reach_recall       0.992675
+iterH_precision    0.164205
+iterH_recall       0.154001
+initH_precision    0.164205
+initH_recall       0.154001
+deg_precision      0.522810
+deg_recall         0.780354
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_43_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 1024
+Reach by Matrix:	 0.16855716705322266
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0820772647857666
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 266
+Where not all aggreed:	 757
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 616
+Iter Score:	 118
+Init Score:	 118
+Init Degree	 119
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 616, 118, 23)
+	(both,Reach,InitScore,none):	 (0, 616, 118, 23)
+	(both,Reach,InitDeg,none):	 (3, 613, 116, 25)
+IterScore
+	(both,IterScore,InitScore,none): (118, 0, 0, 639)
+	(both,IterScore,InitDeg,none):	 (116, 2, 3, 636)
+InitScore
+	(both,InitScore,InitDeg,none):	 (116, 2, 3, 636)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 323
+Where not all aggreed:	 700
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 559
+Iter Score:	 118
+Init Score:	 118
+Init Degree	 118
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 559, 118, 23)
+	(both,Reach,InitScore,none):	 (0, 559, 118, 23)
+	(both,Reach,InitDeg,none):	 (2, 557, 116, 25)
+IterScore
+	(both,IterScore,InitScore,none): (118, 0, 0, 582)
+	(both,IterScore,InitDeg,none):	 (116, 2, 2, 580)
+InitScore
+	(both,InitScore,InitDeg,none):	 (116, 2, 2, 580)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 1023
+------------------------------
+Optimal (all aggreed):	 382
+Where not all aggreed:	 641
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 637
+Iter Score:	 2
+Init Score:	 2
+Init Degree	 9
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (2, 635, 0, 4)
+	(both,Reach,InitScore,none):	 (2, 635, 0, 4)
+	(both,Reach,InitDeg,none):	 (9, 628, 0, 4)
+IterScore
+	(both,IterScore,InitScore,none): (2, 0, 0, 639)
+	(both,IterScore,InitDeg,none):	 (0, 2, 9, 630)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 2, 9, 630)
+
+Analysis:	 2.988114833831787
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.927175
+reach_recall       0.996090
+iterH_precision    0.431085
+iterH_recall       0.394216
+initH_precision    0.431085
+initH_recall       0.394216
+deg_precision      0.434018
+deg_recall         0.402476
+dtype: float64
+
+
+
+
+
+
+
+
+Generating graph Tue_Feb__9_20_02_48_2021_(50_0.1) ...	 Done!
+Adding source node ...	 Done!
+Starting Reach ...
+Results:		 512
+Reach by Matrix:	 0.08577179908752441
+Done with Reach!
+
+Starting Hubs ...
+Numba (sec):		 2.0867128372192383
+Done with Hubs!
+
+Transformed Reach Data.
+
+Analysing...
+
+###########
+# Equality #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 166
+Where not all aggreed:	 345
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 229
+Iter Score:	 56
+Init Score:	 56
+Init Degree	 72
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 229, 56, 60)
+	(both,Reach,InitScore,none):	 (0, 229, 56, 60)
+	(both,Reach,InitDeg,none):	 (16, 213, 56, 60)
+IterScore
+	(both,IterScore,InitScore,none): (56, 0, 0, 289)
+	(both,IterScore,InitDeg,none):	 (56, 0, 16, 273)
+InitScore
+	(both,InitScore,InitDeg,none):	 (56, 0, 16, 273)
+
+
+
+###########
+# Subsets #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 177
+Where not all aggreed:	 334
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 218
+Iter Score:	 68
+Init Score:	 68
+Init Degree	 84
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 218, 68, 48)
+	(both,Reach,InitScore,none):	 (0, 218, 68, 48)
+	(both,Reach,InitDeg,none):	 (16, 202, 68, 48)
+IterScore
+	(both,IterScore,InitScore,none): (68, 0, 0, 266)
+	(both,IterScore,InitDeg,none):	 (68, 0, 16, 250)
+InitScore
+	(both,InitScore,InitDeg,none):	 (68, 0, 16, 250)
+
+
+
+###########
+# Superset #
+###########
+
+
+Total decisions:	 511
+------------------------------
+Optimal (all aggreed):	 222
+Where not all aggreed:	 289
+
+
+
+Decisions where _ was optimal and one other wasn't:
+------------------------------
+Reach:		 289
+Iter Score:	 0
+Init Score:	 0
+Init Degree	 16
+
+
+
+Pairwise Performance Comparison: (true, while the other false)
+------------------------------
+Reach
+	(both,Reach,IterScore,none):	 (0, 289, 0, 0)
+	(both,Reach,InitScore,none):	 (0, 289, 0, 0)
+	(both,Reach,InitDeg,none):	 (16, 273, 0, 0)
+IterScore
+	(both,IterScore,InitScore,none): (0, 0, 0, 289)
+	(both,IterScore,InitDeg,none):	 (0, 0, 16, 273)
+InitScore
+	(both,InitScore,InitDeg,none):	 (0, 0, 16, 273)
+
+Analysis:	 2.5241122245788574
+
+
+
+
+
+########################
+# Precision and Recall #
+########################
+
+
+reach_precision    0.885192
+reach_recall       1.000000
+iterH_precision    0.479452
+iterH_recall       0.456295
+initH_precision    0.479452
+initH_recall       0.456295
+deg_precision      0.510763
+deg_recall         0.487606
+dtype: float64
+
+
+
+
+
+
+
+
